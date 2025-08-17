@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Phone, Mail, MapPin, Road } from 'lucide-react'
+import { Menu, X, Phone, Mail, MapPin, Truck } from 'lucide-react'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -48,7 +48,7 @@ export default function Header() {
               onClick={() => scrollToSection('hero')}
             >
               <div className={`p-3 rounded-xl ${isScrolled ? 'bg-primary-500' : 'bg-white'} shadow-lg`}>
-                <Road className={`h-8 w-8 ${isScrolled ? 'text-white' : 'text-primary-500'}`} />
+                <Truck className={`h-8 w-8 ${isScrolled ? 'text-white' : 'text-primary-500'}`} />
               </div>
               <div>
                 <h1 className={`text-2xl font-bold ${isScrolled ? 'text-secondary-900' : 'text-white'}`}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Road, Phone, Mail, MapPin, Clock, Heart } from 'lucide-react'
+import { Truck, Phone, Mail, MapPin, Clock, Heart } from 'lucide-react'
 
 export default function Footer() {
   const scrollToSection = (sectionId) => {
@@ -49,7 +49,7 @@ export default function Footer() {
             >
               <div className="flex items-center space-x-3 mb-6">
                 <div className="p-3 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl">
-                  <Road className="h-8 w-8 text-white" />
+                  <Truck className="h-8 w-8 text-white" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Rodorval</h3>
